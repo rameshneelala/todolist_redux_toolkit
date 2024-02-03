@@ -1,0 +1,47 @@
+/* .todo-container {
+  min-width: 100%;
+} */
+
+.entering-data {
+  height: 30px;
+  width: 60%;
+  border: 0px solid transparent;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .entering-data {
+    width: 25%;
+  }
+}
+
+.add {
+  height: 30px;
+  width: 80px;
+  border: 0px solid transparent;
+  background-color: aqua;
+  border-radius: 6px;
+  color: chocolate;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.clear {
+  height: 30px;
+  width: 80px;
+  border: 0px solid transparent;
+  background-color: aqua;
+  border-radius: 6px;
+  color: chocolate;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.tasks_filling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

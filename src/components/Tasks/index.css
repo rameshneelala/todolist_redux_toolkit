@@ -1,0 +1,73 @@
+.remove {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: floralwhite;
+  border-radius: 5px;
+  /* border: 2px solid lightblue; */
+  width: 600px;
+  height: 40px;
+  margin-bottom: 10px;
+  border-left: 6px solid crimson;
+}
+
+.title {
+  font-size: 16px;
+  color: chocolate;
+  font-weight: 700;
+}
+
+/* .input_field {
+  margin-bottom: 20px;
+} */
+
+.edit_title {
+  height: 25px;
+  width: 80px;
+  border: 0px solid cornflowerblue;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.edit_delete {
+  height: 25px;
+  width: 80px;
+  border: 0px solid red;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .remove {
+    width: 200px;
+  }
+  .edit_title {
+    width: 40px;
+    font-size: 8px;
+  }
+  .edit_delete {
+    width: 40px;
+    font-size: 8px;
+  }
+}
+
+.entering {
+  height: 30px;
+  width: 600px;
+  border: 0px solid white;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.edit_save {
+  height: 25px;
+  width: 80px;
+  border: 0px solid cornflowerblue;
+  background-color: lightgreen;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 0px;
+}
